@@ -1,0 +1,3 @@
+([('main',
+   '/Users/ricardo/Desktop/Proyectos/pokedex/dist/main',
+   'EXECUTABLE')],)
