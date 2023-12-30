@@ -60,14 +60,18 @@ async def main(page: ft.Page):
 
 
 #########################################################
+                
+    """
+    With this code we create the blinking light, which we have to add the blue button
+    """
     lucecita = ft.Container(width=59, height=58,left=5.6,top=5,bgcolor=ft.colors.BLUE_500, border_radius=40)
 
-    button_blue = ft.Stack([
+    blue_button = ft.Stack([
         ft.Container(width=70, height=69,bgcolor=ft.colors.BLACK87, border_radius=42),
         lucecita
     ])
     elementos_superior = [
-        ft.Container(button_blue,width=70, height=70),
+        ft.Container(blue_button,width=70, height=70),
         ft.Container(width=30, height=30,bgcolor=ft.colors.RED_ACCENT,border_radius=30),
         ft.Container(width=30, height=30,bgcolor=ft.colors.GREEN_600,border_radius=30),
         ft.Container(width=30, height=30,bgcolor=ft.colors.YELLOW_600,border_radius=30),
